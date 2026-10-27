@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lenni Art</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="img/logo.svg" alt="Логотип Lenni Art">
+    </div>
+    <nav class="main-nav">
+      <a href="#events">Мероприятия</a>
+      <a href="#blog">Блог</a>
+      <a href="#about">О нас</a>
+      <a href="#contacts">Контакты</a>
+      <button type="button" class="login-btn">Войти</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">АРТ-ПРОСТРАНСТВО</h1>
+      <img src="img/hero-bg.jpg" alt="LENNI">
+      <h2 class="hero-subtitle">ДЛЯ ЛЮДЕЙ, ГОРЯЩИХ СЕРДЦЕМ И ДЕЛОМ <br> МЕСТО ДЛЯ НАСТОЯЩЕГО</h2>
+      
+      <div class="hero-actions">
+        <h3>Я ХОЧУ:</h3>
+        <nav>
+          <button type="button">Провести мероприятие</button>
+          <button type="button">Стать арендатором</button>
+        </nav>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="section-title">О НАС</h2>
+      
+      <div class="about-project">
+        <h2>Проект "Millennials"</h2>
+        <p>Вдохновлен молодыми идейными людьми, увлеченными творчеством, <br>
+           эмоциями и желанием сделать мир лучше, проявить себя. У них есть талант <br>
+           и стремление, у нас возможность помочь им воплотить их мечту в реальность.
+        </p>
+      </div>
+      
+      <div class="about-gallery">
+        <img src="img/about-1.jpg" alt="Концерт в арт-пространстве">
+        <img src="img/about-2.jpg" alt="Выставка в арт-пространстве">
+      </div>
+      
+      <div class="about-venues">
+        <h2>Мы предоставляем площади <br> для вашего мероприятия</h2>
+        <p>И оказываем помощь с организацией, если вам это нужно <br>
+           Наша цель: вовлечь в культурную жизнь города как можно больше людей, <br>
+           помочь молодым ребятам сделать первые шаги к своей мечте <br>
+           и рассказать всем о том, что их волнует.
+        </p>
+      </div>
+
+      <div class="about-projects">
+        <img src="img/projects-bg.jpg" alt="Люди на мероприятии">
+        <p>Мы уже успешно организовали <br>
+           и провели более 100 проектов. <br>
+           Посмотрите как это было классно
+        </p>
+        <nav>
+          <a href="#">Смотреть</a>
+          <img src="img/arrow-right.svg" alt="Стрелка вправо">
+        </nav>
+      </div>
+    </section>
+
+    <section id="events" class="events">
+      <h2 class="section-title">МЕРОПРИЯТИЯ</h2>
+      
+      <div class="events-list">
+        <!-- Карточка 1 -->
+        <article class="event-card">
+          <img src="img/event-1.jpg" alt="Альбом Nirvana">
+          <h3>Собираемся и слушаем альбом Nirvana. Nirvana</h3>
+          <p>Этот третий альбом группы, выпущенный после смерти Курта Кобейна и первый, содержащий студийный материал.</p>
+          <nav>
+            <time datetime="2026-12-07">07.12.2026</time>
+            <span>|</span>
+            <time datetime="18:00">начало 18.00</time>
+          </nav>
+        </article>
+
+        <!-- Карточка 2 -->
+        <article class="event-card">
+          <img src="img/event-2.jpg" alt="Подкаст HowStuffWorks">
+          <h3>Есть тема, нужно обсудить с HowStuffWorks</h3>
+          <p>Один из самых популярных подкастов в мире. В нём авторы объясняют, как устроены разные вещи.</p>
+          <nav>
+            <time datetime="2026-12-14">14.12.2026</time>
+            <span>|</span>
+            <time datetime="18:00">начало 18.00</time>
+          </nav>
+        </article>
+
+        <!-- Карточка 3 -->
+        <article class="event-card">
+          <img src="img/event-3.jpg" alt="The Best of Sade">
+          <h3>Вечер | The Best of Sade</h3>
+          <p>Музыка группы имеет эклектичный характер, сочетая в себе элементы музыки соул, джаза, ритм-блюза и фанка.</p>
+          <nav>
+            <time datetime="2026-12-16">16.12.2026</time>
+            <span>|</span>
+            <time datetime="20:00">начало 20.00</time>
+          </nav>
+        </article>
+      </div>
+
+      <!-- Слайдер -->
+      <nav class="slider-controls">
+        <button type="button" aria-label="Предыдущий слайд"><img src="img/arrow-left.svg" alt=""></button>
+        <button type="button" aria-label="Следующий слайд"><img src="img/arrow-right.svg" alt=""></button>
+      </nav>
+      <button type="button">Смотреть все</button>
+    </section>
+
+    <section id="blog" class="blog">
+      <h2 class="section-title">БЛОГ</h2>
+
+      <!-- Пост 1 -->
+      <article class="blog-post">
+        <img src="img/blog-1.jpg" alt="Фотосессия в театре">
+        <time datetime="2026-11-26">26.11.2026</time>
+        <h3>Фотосессия в стенах Театра драмы</h3>
+        <p>Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика и у нас получилась отличная работа. Смотрите как это было.</p>
+        <button type="button" aria-label="Читать далее"><img src="img/arrow-right.svg" alt=""></button>
+      </article>
+
+      <!-- Пост 2 -->
+      <article class="blog-post">
+        <img src="img/blog-2.jpg" alt="Выставка VR">
+        <time datetime="2026-11-05">05.11.2026</time>
+        <h3>Выставка VR в Томске</h3>
+        <p>Клуб виртуальной реальности - это другие миры. Яркие эмоции, новый опыт, ... Мы предоставляем нашим клиентам лучший игровой VR-опыт в Томске.</p>
+        <button type="button" aria-label="Читать далее"><img src="img/arrow-right.svg" alt=""></button>
+      </article>
+
+      <!-- Пост 3 -->
+      <article class="blog-post">
+        <img src="img/blog-3.jpg" alt="Rocking radio">
+        <time datetime="2026-11-01">01.11.2026</time>
+        <h3>Rocking radio в заброшенном ангаре</h3>
+        <p>15 электрогенераторов, километры проводов и пару тонн света. Все это для того, чтобы организовать лучшую вечеринку года для ребят из Новосибирска.</p>
+        <button type="button" aria-label="Читать далее"><img src="img/arrow-right.svg" alt=""></button>
+      </article>
+      
+      <button type="button">Смотреть все</button>
+    </section>
+
+    <section id="contacts" class="contacts">
+      <h2 class="section-title">КОНТАКТЫ</h2>
+      
+      <div class="contacts-wrapper">
+        <div class="contacts-info">
+          <nav>
+            <img src="img/icon-location.svg" alt="Иконка адреса">
+            <div>
+              <h4>Томск, Красноармейская 146</h4>
+              <h6>2 этаж</h6>
+              <h6>оф. 206</h6>
+            </div>
+          </nav>
+          <nav>
+            <img src="img/icon-phone.svg" alt="Иконка телефона">
+            <div>
+              <h4>Отдел аренды</h4>
+              <a href="tel:83822907256">8 (3822) 90-72-56</a>
+              <a href="mailto:idat@tusur.ru">idat@tusur.ru</a>
+            </div>
+          </nav>
+          <nav>
+            <img src="img/icon-phone.svg" alt="Иконка телефона">
+            <div>
+              <h4>Отдел мероприятий</h4>
+              <a href="tel:83822907256">8 (3822) 90-72-56</a>
+              <a href="mailto:idat@tusur.ru">idat@tusur.ru</a>
+            </div>
+          </nav>
+        </div>
+        
+        <div class="contacts-map">
+          <img src="img/map.jpg" alt="Карта с указанием адреса: Томск, Красноармейская 146">
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Просто делайте, что нравится</h2>
+      <h2>а мы вам поможем</h2>
+      <img src="img/cta-img-1.jpg" alt="Изображение арт-пространства">
+      <img src="img/cta-img-2.jpg" alt="Атмосфера мероприятия">
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-nav">
+        <img src="img/logo-footer.svg" alt="Логотип Lenni Art">
+        <nav>
+          <a href="#">Календарь мероприятий</a>
+          <a href="#">Провести мероприятие</a>
+          <a href="#">Стать арендатором</a>
+          <a href="#">Наши проекты</a>
+          <a href="#">Контакты</a>
+        </nav>
+      </div>
+
+      <div class="footer-subscribe">
+        <h5>Подпишись и будь в курсе происходящего</h5>
+        <form action="#" method="post">
+          <div class="subscribe-form">
+            <input type="email" name="email" placeholder="Email" required>
+            <button type="submit">Подписаться</button>
+          </div>
+          <div class="subscribe-agreement">
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">Согласен на обработку персональных данных</label>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        <p>© Millennials 2025</p>
+        <nav>
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Cookies</a>
+        </nav>
+      </div>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="ВКонтакте"><img src="img/icon-vk.svg" alt="VK"></a>
+        <a href="#" aria-label="Telegram"><img src="img/icon-tg.svg" alt="Telegram"></a>
+      </div>
+
+      <div class="footer-dev">
+        <h5>Создание и продвижение</h5>
+        <img src="img/logo-dignity.svg" alt="Логотип Dignity" class="logo">
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
