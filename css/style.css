@@ -1,0 +1,11 @@
+h1{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2:hover{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.event-card p {
+  font-family: 'Arial', sans-serif;
+}
